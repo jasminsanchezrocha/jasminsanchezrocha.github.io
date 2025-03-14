@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0¨;
+    box-sizing: border-box
+}
+header,nav,footer,main{
+    width:100%;
+    background-color:#ff97bf;
+        color:tivedefault;
+        padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav{
+    height: auto;
+    background-color: #ffb4d1;
+    
+}
+nav ul{
+    text-align: center;
+}
+
+nav ul li {
+    width: 100px;
+    min-width: 120px;
+    list-style-type:none;
+        background-color: rgba(255, 240, 251, 0.92);
+    color: #ff60cd;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;   
+    border-radius: 20px;
+    margin-bottom: 5px;
+ 
+        
+}
+nav ul li a:link, nav ul li a:visited{
+    color: #e53075;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: #f91ad6
+      
+}
+nav ul li:hover{
+    background-color: #30f0f0;
+    width: 95px;
+}
+main{
+    height: auto;
+    background-color: #ffd2e3;
+}
+section{
+    width:80%;
+    height: auto;
+    background-color: rgb(255, 216, 229);
+    padding: 30px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x:auto;
+}
+h2,p{
+    text-align: center;
+    margin-bottom:30px;
+    
+}
+#tabla_1{
+    width: 80%;
+    margin-left:auto;
+        margin-right:auto;
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th,#tabla_2 td,#tabla_3 th, #tabla_3  td{
+    padding-left: 10px;
+padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#tabla_1 th,#tabla_2 th, #tabla_3 th{
+    background-color: #bee1ff;
+      
+}
+#tabla_1 td{
+    background-color: #d881a2;
+}
+#tabla_2{
+    width: 100%;
+   /*rder-style: solid;
+    border-color:#ffd3f6;
+    border:5px;*/
+    border: 5px solid #ff2d7e;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+#tabla_2 th, #tabla_2 td{
+    border: 3px solid #f2677f;
+}
+
+
+#tabla_2 tbody tr:nth-child(even){
+    background-color: #ffc7e9;
+}
+#tabla_2 tbody tr:nth-child(odd){
+    background-color: #c1b9ff;
+}
+#tabla_3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5c7e3;
+}
+#tabla_3 th{
+    height: 60px;
+}
+#tabla_3 td{
+    height:50px;
+    padding-left: 10px;
+}
+    #tabla_3 th, #tabla_ td{
+      border: 2px solid pink;
+    }
+        
+  
+
+#tabla_3 tr:hover{
+   background-color: #ff885c;
+    color: aliceblue;
+}
+    h1,h6{
+     text-align: center;
+        font-size: 48px;
+    }
+img{
+    width: 100%;
+}
+imagenes_box{
+    width: 50%;
+    margin-left: auto;
+   margin-right:auto;
+    display: block;
+}
+.imagen_flotante_izq{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.imagen_flotante_der{
+width:20%;
+float:right;
+margin-left:20px;
+}
+.fondo
+{
+    background-image: url(imagenes/winter-8612635_640.jpg);
+    background-size:cover;
+}
+.imagen_enlace{
+    width: 64px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.section-filtros
+{
+    color: #b13328;
+    text-align: center;
+}
+.section-filtros img
+{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form
+{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: #d5ebff;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+     }
+label
+{
+    color: #006fd0;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type=text],input[type=password],select{
+    width: 100px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #ffe3ed;
+    color: #ff6ba4;
+    border: 3px solid #ff8ca0;
+}
+
+input[type=submit]{
+    width: 20px;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: #4088c8;
+    color: #ffd2e3;
+    border: 3px solid #d3197c;
+    border-radius: 10px;
+    
+}
+input[type=text]:focus,input[type=password]:focus,select:focus
+
+{
+    color: #fa2e7d;
+    background-color: #f78ab3;
+    border:3px solid red;
+}
+ 
+
+
+
+    
+    
+    
